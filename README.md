@@ -14,11 +14,21 @@ A Python GUI application to fix file and folder names that are incompatible with
 ## Requirements
 
 - Python 3.6+
-- tkinter (usually pre-installed with Python)
+- tkinter
 
 ## Installation
 
 ```bash
+# Install tkinter (Linux only)
+# Debian/Ubuntu:
+sudo apt-get install python3-tk
+
+# Fedora/RHEL:
+sudo dnf install python3-tkinter
+
+# Arch:
+sudo pacman -S tk
+
 # Make executable
 chmod +x main.py
 ```
