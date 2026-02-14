@@ -105,6 +105,8 @@ class OneDriveSanitizer:
     
     def get_issue_type(self, name):
         issues = []
+        if ':' in name:
+            issues.append("NTFS stream")
         if re.search(self.INVALID_CHARS, name):
             issues.append("Invalid chars")
         if name.endswith((' ', '.')):
