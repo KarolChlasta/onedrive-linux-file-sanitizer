@@ -2,6 +2,8 @@
 
 A Python GUI application to fix file and folder names that are incompatible with OneDrive on Linux.
 
+<img width="853" height="617" alt="image" src="https://github.com/user-attachments/assets/ed4782ae-b5ee-4118-b942-b8b8a9315e08" />
+
 ## Features
 
 - Scans mounted OneDrive directories for problematic files
